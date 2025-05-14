@@ -39,7 +39,10 @@ wget https://github.com/xlite-dev/statistic-learning-R-note/releases/download/v0
 
 ## 📖Contents  
 
-![image](https://github.com/xlite-dev/statistic-learning-R-note/assets/31974251/561384a1-fbc3-40ed-af62-98268904f387)
+![alt text](0.jpg) 
+
+![alt text](1.jpg)
+
 
 - 第一章 统计学习方法概述
   - [1.6.2 泛化误差上界（P16-P17）](https://github.com/xlite-dev/statistic-learning-R-note/releases/download/v0.1.0/statistic.learning.R.Note.v0.1.0.pdf)
