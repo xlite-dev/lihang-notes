@@ -1,6 +1,6 @@
 <div align="center">
   <p align="center">
-    <h2>📚 lihang-notes:《统计学习方法-李航: 笔记-从原理到实现》🐑</h2>
+    <h2>📚 lihang-notes:《统计学习方法-李航: 笔记-从原理到实现》🎉</h2>
     <img src='https://github.com/user-attachments/assets/36f24953-f31b-490e-a4b7-1a14f1f39a0e' >
   </p>
   <div align='center'>
