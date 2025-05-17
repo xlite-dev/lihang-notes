@@ -99,11 +99,6 @@
 
 <div id="Previews"></div>
 
-- 📚 序言
-
-<img width="1683" alt="image" src="https://github.com/user-attachments/assets/1b852684-3e62-4deb-8f9e-b1622ebfa858" />
-
----
 
 - 📚 目录
 
