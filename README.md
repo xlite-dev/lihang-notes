@@ -1,6 +1,6 @@
 <div align="center">
   <p align="center">
-    <h2>📚 lihang-notes: 《统计学习方法-李航: 笔记-从原理到实现》🐑</h2>
+    <h2>📚 lihang-notes:《统计学习方法-李航: 笔记-从原理到实现》🐑</h2>
     <img src='https://github.com/user-attachments/assets/36f24953-f31b-490e-a4b7-1a14f1f39a0e' >
   </p>
   <div align='center'>
@@ -13,7 +13,7 @@
  </div>
 </div>
 
-📚 **lihang-notes**: 《统计学习方法-李航: 笔记-从原理到实现》 这是一份非常详细的学习笔记，200页🎉，各种手推公式细节讲解以及R语言实现，整理成PDF，有详细的目录，可结合《统计学习方法》提高学习效率。**如果觉得有用，不妨给个🌟Star支持一下吧~**
+📚 **lihang-notes**:《统计学习方法-李航: 笔记-从原理到实现》 这是一份非常详细的学习笔记，200页`PDF`🎉，各种手推公式细节讲解以及`R语言`实现，整理成PDF，有详细的目录，可结合《统计学习方法》提高学习效率。**如果觉得有用，不妨给个🌟Star支持一下吧~**
 
 <div align="center">
   <p align="center">
