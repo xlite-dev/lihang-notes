@@ -19,17 +19,6 @@ Most of my time now is focused on **LLM/VLM** Inference. Please check 📖[Aweso
 ## 📒Introduction
  《统计学习方法-李航: 笔记-从原理到实现》 这是一份非常详细的学习笔记，200页，各种手推公式细节讲解，整理成PDF，有详细的目录，可结合《统计学习方法》提高学习效率。如果觉得有用，不妨给个🌟Star支持一下吧~
 
-## ©️Citations 
-
-```BibTeX
-@misc{lihang-notes@2019,
-  title={lihang-notes: A detail note book of statistic-learning with R codes},
-  url={https://github.com/xlite-dev/lihang-notes},
-  note={Open-source software available at https://github.com/xlite-dev/lihang-notes},
-  author={xlite-dev},
-  year={2019}
-}
-```
 
 ## 🎉Download PDFs 
 - [李航《统计学习方法》笔记--从原理到实现：基于R.pdf 👆🏻<点击下载!>](https://github.com/xlite-dev/lihang-notes/releases/download/v0.1.0/statistic.learning.R.Note.v0.1.0.pdf)
@@ -122,14 +111,17 @@ GNU General Public License v3.0
 
 🌟如果觉得有用，不妨给个🌟👆🏻Star支持一下吧~
 
-<div align='center'>
-<a href="https://star-history.com/#xlite-dev/lihang-notes&Date">
-  <picture align='center'>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=xlite-dev/lihang-notes&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=xlite-dev/lihang-notes&type=Date" />
-    <img width="400" height="250" alt="Star History Chart" src="https://api.star-history.com/svg?repos=xlite-dev/lihang-notes&type=Date" />
-  </picture>
-</a>
-</div>
+## ©️Citations 
+
+```BibTeX
+@misc{lihang-notes@2019,
+  title={lihang-notes: A detail note book of statistic-learning with R codes},
+  url={https://github.com/xlite-dev/lihang-notes},
+  note={Open-source software available at https://github.com/xlite-dev/lihang-notes},
+  author={xlite-dev},
+  year={2019}
+}
+```
+
 
 
