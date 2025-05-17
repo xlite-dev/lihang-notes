@@ -7,6 +7,9 @@
 
 ![image](https://github.com/user-attachments/assets/a2d6fd31-dea9-4a9b-b7be-95f5b7377c56)
 
+
+<img width="1683" alt="image" src="https://github.com/user-attachments/assets/1b852684-3e62-4deb-8f9e-b1622ebfa858" />
+
 <div align='center'>
   <img src=https://img.shields.io/github/downloads/xlite-dev/lihang-notes/total?color=ccf&label=downloads&logo=github&logoColor=lightgrey >
   <img src=https://img.shields.io/github/forks/xlite-dev/lihang-notes.svg?style=social >
@@ -24,16 +27,33 @@ Most of my time now is focused on **LLM/VLM** Inference. Please check 📖[Aweso
 
 
 ## 🎉Download PDFs 
+
 - [李航《统计学习方法》笔记--从原理到实现：基于R.pdf 👆🏻<点击下载!>](https://github.com/xlite-dev/lihang-notes/releases/download/v0.1.0/statistic.learning.R.Note.v0.1.0.pdf)
-```shell
-wget https://github.com/xlite-dev/lihang-notes/releases/download/v0.1.0/statistic.learning.R.Note.v0.1.0.pdf
-```
+
+
+## 📖Preview
+
+- 目录
+
+<img width="1682" alt="image" src="https://github.com/user-attachments/assets/7cf403bf-4f93-4ae1-9da8-d9c5f9327183" />
+
+- K 近邻
+
+<img width="1686" alt="image" src="https://github.com/user-attachments/assets/63c584d4-2b4c-4644-9dcd-32acb4077b24" />
+
+- KD 树
+
+<img width="1683" alt="image" src="https://github.com/user-attachments/assets/8e03f0c0-9e24-4343-be39-c48e774f5c39" />
+
+  
+- 信息增益比
+  
+<img width="1682" alt="image" src="https://github.com/user-attachments/assets/eb30cef2-a937-4b01-b487-8e095c5d447c" />
+
+
 
 ## 📖Contents  
 
-![alt text](0.jpg) 
-
-![alt text](1.jpg)
 
 
 - 第一章 统计学习方法概述
