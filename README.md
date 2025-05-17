@@ -7,9 +7,6 @@
 
 ![image](https://github.com/user-attachments/assets/a2d6fd31-dea9-4a9b-b7be-95f5b7377c56)
 
-
-<img width="1683" alt="image" src="https://github.com/user-attachments/assets/1b852684-3e62-4deb-8f9e-b1622ebfa858" />
-
 <div align='center'>
   <img src=https://img.shields.io/github/downloads/xlite-dev/lihang-notes/total?color=ccf&label=downloads&logo=github&logoColor=lightgrey >
   <img src=https://img.shields.io/github/forks/xlite-dev/lihang-notes.svg?style=social >
@@ -33,6 +30,11 @@ Most of my time now is focused on **LLM/VLM** Inference. Please check 📖[Aweso
 
 ## 📖Preview
 
+- 序言
+
+<img width="1683" alt="image" src="https://github.com/user-attachments/assets/1b852684-3e62-4deb-8f9e-b1622ebfa858" />
+
+
 - 目录
 
 <img width="1682" alt="image" src="https://github.com/user-attachments/assets/7cf403bf-4f93-4ae1-9da8-d9c5f9327183" />
@@ -50,6 +52,17 @@ Most of my time now is focused on **LLM/VLM** Inference. Please check 📖[Aweso
   
 <img width="1682" alt="image" src="https://github.com/user-attachments/assets/eb30cef2-a937-4b01-b487-8e095c5d447c" />
 
+- 支持向量机
+
+<img width="1684" alt="image" src="https://github.com/user-attachments/assets/763c8316-3d9f-491b-bcc1-c993b16293fc" />
+
+- AdaBoost
+
+<img width="1683" alt="image" src="https://github.com/user-attachments/assets/7556d3cc-5261-43ff-a826-5ff8449f22e8" />
+
+- 隐马尔可夫模型
+
+<img width="1686" alt="image" src="https://github.com/user-attachments/assets/18338a8c-7afb-4c3d-b459-6dd41b5bca32" />
 
 
 ## 📖Contents  
