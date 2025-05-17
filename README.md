@@ -1,29 +1,33 @@
 
-![image](https://github.com/user-attachments/assets/a2d6fd31-dea9-4a9b-b7be-95f5b7377c56)
 
-<div align='center'>
-  <img src=https://img.shields.io/github/downloads/xlite-dev/lihang-notes/total?color=ccf&label=downloads&logo=github&logoColor=lightgrey >
-  <img src=https://img.shields.io/github/forks/xlite-dev/lihang-notes.svg?style=social >
-  <img src=https://img.shields.io/github/stars/xlite-dev/lihang-notes.svg?style=social >
-  <img src=https://img.shields.io/badge/PDF-avaliable-brightgreen.svg >
-  <img src=https://img.shields.io/badge/Release-v1.0-brightgreen.svg >
-  <img src=https://img.shields.io/badge/License-GPLv3.0-turquoise.svg >
- </div>   
+<div align="center">
+  <p align="center">
+    <h2>📚 lihang-notes: 《统计学习方法-李航: 笔记-从原理到实现》🐑</h2>
+    <img src='https://github.com/user-attachments/assets/a2d6fd31-dea9-4a9b-b7be-95f5b7377c56' >
+  </p>
+  <div align='center'>
+      <img src=https://img.shields.io/github/downloads/xlite-dev/lihang-notes/total?color=ccf&label=downloads&logo=github&logoColor=lightgrey >
+    <img src=https://img.shields.io/github/forks/xlite-dev/lihang-notes.svg?style=social >
+    <img src=https://img.shields.io/github/stars/xlite-dev/lihang-notes.svg?style=social >
+    <img src=https://img.shields.io/badge/PDF-avaliable-brightgreen.svg >
+    <img src=https://img.shields.io/badge/Release-v1.0-brightgreen.svg >
+    <img src=https://img.shields.io/badge/License-GPLv3.0-turquoise.svg >
+ </div>
+</div>
 
-## 🎉 News 👇👇
-Most of my time now is focused on **LLM/VLM** Inference. Please check 📖[Awesome-LLM-Inference](https://github.com/xlite-dev/Awesome-LLM-Inference)  ![](https://img.shields.io/github/stars/xlite-dev/Awesome-LLM-Inference.svg?style=social), 📖[Awesome-DiT-Inference](https://github.com/xlite-dev/Awesome-DiT-Inference)  ![](https://img.shields.io/github/stars/xlite-dev/Awesome-Diffusion-Inference.svg?style=social) and 📖[LeetCUDA](https://github.com/xlite-dev/LeetCUDA)  ![](https://img.shields.io/github/stars/xlite-dev/LeetCUDA.svg?style=social) for more details.
+📚 **lihang-notes**: 《统计学习方法-李航: 笔记-从原理到实现》 这是一份非常详细的学习笔记，200页🎉，各种手推公式细节讲解以及R语言实现，整理成PDF，有详细的目录，可结合《统计学习方法》提高学习效率。
+<div align="center">
+  <p align="center">
+    <a href="#Contribute">🔥🔥 如果觉得有用，不妨给个🌟Star支持一下吧~ 🎉🎉</a>
+  </p>
+</div>
 
-## 📒 Introduction 
- 《统计学习方法-李航: 笔记-从原理到实现》 这是一份非常详细的学习笔记，200页，各种手推公式细节讲解，整理成PDF，有详细的目录，可结合《统计学习方法》提高学习效率。如果觉得有用，不妨给个🌟Star支持一下吧~
-
-
-## 🎉 Download
+## 🎉 Download ([©️PDF, 200 Pages](https://github.com/xlite-dev/lihang-notes/releases/download/v0.1.0/statistic.learning.R.Note.v0.1.0.pdf))
 
 - [李航《统计学习方法》笔记--从原理到实现：基于R.pdf 👆🏻<点击下载!>](https://github.com/xlite-dev/lihang-notes/releases/download/v0.1.0/statistic.learning.R.Note.v0.1.0.pdf)
 
 
 ## 📖 Contents ([Jump to ©️ Previews](#Previews))
-
 
 - 第一章 统计学习方法概述
   - [1.6.2 泛化误差上界（P16-P17）](https://github.com/xlite-dev/lihang-notes/releases/download/v0.1.0/statistic.learning.R.Note.v0.1.0.pdf)
@@ -152,6 +156,8 @@ Most of my time now is focused on **LLM/VLM** Inference. Please check 📖[Aweso
 GNU General Public License v3.0  
 
 ## 🎉 Contribute  
+
+<div id="Contribute"></div>
 
 🌟如果觉得有用，不妨给个🌟👆🏻Star支持一下吧~
 
