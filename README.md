@@ -1,8 +1,11 @@
 <!--
 ![image](https://github.com/xlite-dev/lihang-notes/assets/31974251/07297b6a-d94c-4db0-aaef-8132071c94cb)
+![image](https://github.com/user-attachments/assets/c7ff6abe-8ae1-449e-9b07-7d1b49b9cf48)
+![image](https://github.com/user-attachments/assets/3d5d3d4c-c56f-4200-af1d-2dbed02292e6)
+
 -->
 
-![image](https://github.com/user-attachments/assets/c7ff6abe-8ae1-449e-9b07-7d1b49b9cf48)
+![image](https://github.com/user-attachments/assets/a2d6fd31-dea9-4a9b-b7be-95f5b7377c56)
 
 <div align='center'>
   <img src=https://img.shields.io/github/downloads/xlite-dev/lihang-notes/total?color=ccf&label=downloads&logo=github&logoColor=lightgrey >
@@ -16,7 +19,7 @@
 ## News 👇👇
 Most of my time now is focused on **LLM/VLM** Inference. Please check 📖[Awesome-LLM-Inference](https://github.com/xlite-dev/Awesome-LLM-Inference)  ![](https://img.shields.io/github/stars/xlite-dev/Awesome-LLM-Inference.svg?style=social), 📖[Awesome-DiT-Inference](https://github.com/xlite-dev/Awesome-DiT-Inference)  ![](https://img.shields.io/github/stars/xlite-dev/Awesome-Diffusion-Inference.svg?style=social) and 📖[LeetCUDA](https://github.com/xlite-dev/LeetCUDA)  ![](https://img.shields.io/github/stars/xlite-dev/LeetCUDA.svg?style=social) for more details.
 
-## 📒Introduction
+## 📒Introduction 
  《统计学习方法-李航: 笔记-从原理到实现》 这是一份非常详细的学习笔记，200页，各种手推公式细节讲解，整理成PDF，有详细的目录，可结合《统计学习方法》提高学习效率。如果觉得有用，不妨给个🌟Star支持一下吧~
 
 
