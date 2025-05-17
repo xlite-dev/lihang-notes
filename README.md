@@ -22,57 +22,7 @@ Most of my time now is focused on **LLM/VLM** Inference. Please check 📖[Aweso
 - [李航《统计学习方法》笔记--从原理到实现：基于R.pdf 👆🏻<点击下载!>](https://github.com/xlite-dev/lihang-notes/releases/download/v0.1.0/statistic.learning.R.Note.v0.1.0.pdf)
 
 
-## 📖 Previews
-
-### 📚 序言
-
-<img width="1683" alt="image" src="https://github.com/user-attachments/assets/1b852684-3e62-4deb-8f9e-b1622ebfa858" />
-
----
-
-### 📚 目录
-
-<img width="1682" alt="image" src="https://github.com/user-attachments/assets/7cf403bf-4f93-4ae1-9da8-d9c5f9327183" />
-
----
-
-### 📚 K 近邻
-
-<img width="1686" alt="image" src="https://github.com/user-attachments/assets/63c584d4-2b4c-4644-9dcd-32acb4077b24" />
-
----
-
-### 📚 KD 树
-
-<img width="1683" alt="image" src="https://github.com/user-attachments/assets/8e03f0c0-9e24-4343-be39-c48e774f5c39" />
-
----
-
-### 📚 信息增益比
-  
-<img width="1682" alt="image" src="https://github.com/user-attachments/assets/eb30cef2-a937-4b01-b487-8e095c5d447c" />
-
----
-
-### 📚 支持向量机
-
-<img width="1684" alt="image" src="https://github.com/user-attachments/assets/763c8316-3d9f-491b-bcc1-c993b16293fc" />
-
----
-
-### 📚 AdaBoost
-
-<img width="1683" alt="image" src="https://github.com/user-attachments/assets/7556d3cc-5261-43ff-a826-5ff8449f22e8" />
-
----
-
-### 📚 隐马尔可夫模型
-
-<img width="1686" alt="image" src="https://github.com/user-attachments/assets/18338a8c-7afb-4c3d-b459-6dd41b5bca32" />
-
----
-
-## 📖 Contents  
+## 📖 Contents ([Jump to ©️ Previews](#Previews))
 
 
 - 第一章 统计学习方法概述
@@ -144,6 +94,58 @@ Most of my time now is focused on **LLM/VLM** Inference. Please check 📖[Aweso
 - [附录 8 提升算法的 R 代码](https://github.com/xlite-dev/lihang-notes/releases/download/v0.1.0/statistic.learning.R.Note.v0.1.0.pdf)  
 - [附录 9 EM 算法的 R 实现](https://github.com/xlite-dev/lihang-notes/releases/download/v0.1.0/statistic.learning.R.Note.v0.1.0.pdf)  
 - [附录 10 HMM 模型的 R 实现](https://github.com/xlite-dev/lihang-notes/releases/download/v0.1.0/statistic.learning.R.Note.v0.1.0.pdf)
+
+## 📖 Previews
+
+<div id="Previews"></div>
+
+- 📚 序言
+
+<img width="1683" alt="image" src="https://github.com/user-attachments/assets/1b852684-3e62-4deb-8f9e-b1622ebfa858" />
+
+---
+
+- 📚 目录
+
+<img width="1682" alt="image" src="https://github.com/user-attachments/assets/7cf403bf-4f93-4ae1-9da8-d9c5f9327183" />
+
+---
+
+- 📚 K 近邻
+
+<img width="1686" alt="image" src="https://github.com/user-attachments/assets/63c584d4-2b4c-4644-9dcd-32acb4077b24" />
+
+---
+
+- 📚 KD 树
+
+<img width="1683" alt="image" src="https://github.com/user-attachments/assets/8e03f0c0-9e24-4343-be39-c48e774f5c39" />
+
+---
+
+- 📚 信息增益比
+  
+<img width="1682" alt="image" src="https://github.com/user-attachments/assets/eb30cef2-a937-4b01-b487-8e095c5d447c" />
+
+---
+
+- 📚 支持向量机
+
+<img width="1684" alt="image" src="https://github.com/user-attachments/assets/763c8316-3d9f-491b-bcc1-c993b16293fc" />
+
+---
+
+- 📚 AdaBoost
+
+<img width="1683" alt="image" src="https://github.com/user-attachments/assets/7556d3cc-5261-43ff-a826-5ff8449f22e8" />
+
+---
+
+- 📚 隐马尔可夫模型
+
+<img width="1686" alt="image" src="https://github.com/user-attachments/assets/18338a8c-7afb-4c3d-b459-6dd41b5bca32" />
+
+
 
 ## ©️ License  
 
