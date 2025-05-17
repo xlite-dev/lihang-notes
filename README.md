@@ -15,17 +15,13 @@
  </div>
 </div>
 
-📚 **lihang-notes**: 《统计学习方法-李航: 笔记-从原理到实现》 这是一份非常详细的学习笔记，200页🎉，各种手推公式细节讲解以及R语言实现，整理成PDF，有详细的目录，可结合《统计学习方法》提高学习效率。
+📚 **lihang-notes**: 《统计学习方法-李航: 笔记-从原理到实现》 这是一份非常详细的学习笔记，200页🎉，各种手推公式细节讲解以及R语言实现，整理成PDF，有详细的目录，可结合《统计学习方法》提高学习效率。**如果觉得有用，不妨给个🌟Star支持一下吧~**
+
 <div align="center">
   <p align="center">
-    <a href="#Contribute">🔥🔥 如果觉得有用，不妨给个🌟Star支持一下吧~ 🎉🎉</a>
+    <a href="https://github.com/xlite-dev/lihang-notes/releases/download/v0.1.0/statistic.learning.R.Note.v0.1.0.pdf">🔥🔥 Download (©️PDF, 200 Pages) <点击下载!> 🎉🎉</a>
   </p>
 </div>
-
-## 🎉 Download ([©️PDF, 200 Pages](https://github.com/xlite-dev/lihang-notes/releases/download/v0.1.0/statistic.learning.R.Note.v0.1.0.pdf))
-
-- [李航《统计学习方法》笔记--从原理到实现：基于R.pdf 👆🏻<点击下载!>](https://github.com/xlite-dev/lihang-notes/releases/download/v0.1.0/statistic.learning.R.Note.v0.1.0.pdf)
-
 
 ## 📖 Contents ([Jump to ©️ Previews](#Previews))
 
