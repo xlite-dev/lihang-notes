@@ -32,52 +32,53 @@ Most of my time now is focused on **LLM/VLM** Inference. Please check 📖[Aweso
 
 ---
 
-- 序言
+### 📚序言
 
 <img width="1683" alt="image" src="https://github.com/user-attachments/assets/1b852684-3e62-4deb-8f9e-b1622ebfa858" />
 
 ---
 
-- 目录
+### 📚目录
 
 <img width="1682" alt="image" src="https://github.com/user-attachments/assets/7cf403bf-4f93-4ae1-9da8-d9c5f9327183" />
 
 ---
 
-- K 近邻
+### 📚K 近邻
 
 <img width="1686" alt="image" src="https://github.com/user-attachments/assets/63c584d4-2b4c-4644-9dcd-32acb4077b24" />
 
 ---
 
-- KD 树
+### 📚KD 树
 
 <img width="1683" alt="image" src="https://github.com/user-attachments/assets/8e03f0c0-9e24-4343-be39-c48e774f5c39" />
 
 ---
 
-- 信息增益比
+### 📚信息增益比
   
 <img width="1682" alt="image" src="https://github.com/user-attachments/assets/eb30cef2-a937-4b01-b487-8e095c5d447c" />
 
 ---
 
-- 支持向量机
+### 📚支持向量机
 
 <img width="1684" alt="image" src="https://github.com/user-attachments/assets/763c8316-3d9f-491b-bcc1-c993b16293fc" />
 
 ---
 
-- AdaBoost
+### 📚AdaBoost
 
 <img width="1683" alt="image" src="https://github.com/user-attachments/assets/7556d3cc-5261-43ff-a826-5ff8449f22e8" />
 
 ---
 
-- 隐马尔可夫模型
+### 📚隐马尔可夫模型
 
 <img width="1686" alt="image" src="https://github.com/user-attachments/assets/18338a8c-7afb-4c3d-b459-6dd41b5bca32" />
 
+---
 
 ## 📖Contents  
 
