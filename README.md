@@ -8,7 +8,7 @@
     <img src=https://img.shields.io/github/forks/xlite-dev/lihang-notes.svg?style=social >
     <img src=https://img.shields.io/github/stars/xlite-dev/lihang-notes.svg?style=social >
     <img src=https://img.shields.io/badge/PDF-avaliable-brightgreen.svg >
-    <img src=https://img.shields.io/badge/Release-v1.0-brightgreen.svg >
+    <img src=https://img.shields.io/badge/Release-v1.3-brightgreen.svg >
     <img src=https://img.shields.io/badge/License-GPLv3.0-turquoise.svg >
  </div>
 </div>
