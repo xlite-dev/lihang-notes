@@ -1,0 +1,171 @@
+% cover-tikz.tex — lihang-notes-R 浅色手绘风格封面（纯 TikZ 矢量）
+% 构建: xelatex -interaction=nonstopmode cover.tex
+% MediaBox 精确匹配目标 PDF: 595.22 x 842 bp = 597.4520625 x 845.1575 tex pt
+% 风格参考: 旧封面 cover.png 的统计图元素（直方图/正态曲线/散点/柱状/折线/星型网络/R 徽标/网格盒/波浪带），
+% 线稿全部走 random steps 手绘抖动，浅色纸面底
+\documentclass[tikz,border=0pt]{standalone}
+\usepackage{amsmath}
+\usepackage{xeCJK}
+\usetikzlibrary{arrows.meta,calc,decorations.pathmorphing}
+\setmainfont{Comic Neue}
+\setCJKmainfont{LXGW WenKai}
+
+\definecolor{bg}{RGB}{250,247,242}
+\definecolor{ink}{RGB}{38,42,48}
+\definecolor{accent}{RGB}{232,135,30}
+\definecolor{grayc}{RGB}{138,144,153}
+
+\tikzset{
+  sketch/.style={decorate, decoration={random steps, segment length=2.5mm, amplitude=0.3mm}},
+  sketchfine/.style={decorate, decoration={random steps, segment length=7mm, amplitude=0.15mm}},
+  sketchtiny/.style={decorate, decoration={random steps, segment length=4mm, amplitude=0.1mm}}}
+
+\begin{document}
+\begin{tikzpicture}[x=1cm, y=1cm]
+% 精确底板 = 精确 MediaBox（后续所有内容必须落在其内）
+\fill[bg] (0,0) rectangle (597.4520625pt,845.1575pt);
+
+% ===== 顶部标题框（双线手绘框） =====
+\draw[ink!75, line width=1.1pt, sketch] (1.4,24.2) rectangle (19.6,28.5);
+\draw[ink!30, line width=0.5pt, sketch] (1.65,24.45) rectangle (19.35,28.25);
+\node[text=ink, font=\bfseries\fontsize{30}{36}\selectfont] at (10.5,27.3)
+  {李航《统计学习\textcolor{accent}{方法}》笔记};
+\node[text=ink!85, font=\fontsize{17}{22}\selectfont,
+  draw=accent!55, fill=accent!10, line width=0.7pt, rounded corners=2.5mm,
+  inner xsep=8pt, inner ysep=5pt, sketch] at (10.5,25.9)
+  {从原理到实现：基于 R};
+
+% ===== 中部手绘波浪带（先画，图表压在其上；起笔内移防装饰越界） =====
+\fill[accent!10]
+  (0.15,19.2) .. controls (5.5,21.3) and (10.5,16.0) .. (15,17.7)
+  .. controls (18,18.9) and (19.8,18.3) .. (20.75,17.3)
+  -- (20.75,16.2)
+  .. controls (18.5,17.2) and (17.4,16.5) .. (14.6,15.6)
+  .. controls (10,14.1) and (5,19.0) .. (0.15,17.5) -- cycle;
+\draw[accent!55, line width=1.2pt, sketch]
+  (0.15,19.2) .. controls (5.5,21.3) and (10.5,16.0) .. (15,17.7)
+  .. controls (18,18.9) and (19.8,18.3) .. (20.75,17.3);
+\draw[accent!40, line width=0.9pt, sketch]
+  (0.15,17.5) .. controls (5,19.0) and (10,14.1) .. (14.6,15.6)
+  .. controls (17.4,16.5) and (18.5,17.2) .. (20.75,16.2);
+% 下部两条长弯线（呼应旧封面白色公路曲线）
+\draw[accent!40, line width=0.9pt, sketch]
+  (0.15,12.2) .. controls (6,10.6) and (12,13.2) .. (20.75,9.6);
+\draw[grayc!45, line width=0.8pt, sketch]
+  (0.15,9.4) .. controls (7,12.6) and (14,8.4) .. (20.75,12.0);
+
+% ===== 左上：直方图 + 正态曲线 + 局部网格 =====
+% 局部网格补丁
+\foreach \x in {4.2,4.7,5.2,5.7,6.2,6.6}
+  \draw[grayc!30, line width=0.5pt, sketchfine] (\x,18.3) -- (\x,20.9);
+\foreach \y in {18.3,18.8,19.3,19.8,20.3,20.9}
+  \draw[grayc!30, line width=0.5pt, sketchfine] (4.2,\y) -- (6.6,\y);
+% 坐标轴
+\draw[ink!80, line width=1.0pt, sketch] (1.95,17.75) -- (7.6,17.75);
+\draw[ink!80, line width=1.0pt, sketch] (2.25,17.55) -- (2.25,21.4);
+% 直方条
+\foreach \i/\h in {0/0.5,1/0.95,2/1.45,3/1.75,4/1.4,5/0.9,6/0.55}
+  \fill[draw=accent!85, line width=0.6pt, sketchtiny, fill=accent!62]
+  ({2.45+\i*0.62},17.75) rectangle ++(0.52,\h);
+% 正态曲线
+\draw[ink!85, line width=1.0pt, sketch]
+  (2.0,17.95) .. controls (3.2,18.2) and (3.9,20.9) .. (4.6,21.0)
+  .. controls (5.4,20.9) and (6.2,18.3) .. (7.4,17.95);
+
+% ===== 散点（标题框下方、直方图右侧） =====
+\foreach \x/\y/\r in {8.6/21.7/0.045, 9.1/22.2/0.06, 9.6/22.0/0.05,
+  10.1/22.7/0.07, 10.6/22.4/0.05, 11.1/23.1/0.08, 11.5/22.8/0.055,
+  8.9/22.6/0.05, 9.9/23.0/0.065, 10.4/21.9/0.05, 10.9/23.5/0.06,
+  11.3/22.2/0.055, 11.7/23.4/0.045, 9.4/23.3/0.04}
+  \fill[accent!80] (\x,\y) circle (\r);
+\foreach \x/\y/\r in {8.4/22.9/0.04, 11.9/22.0/0.04, 10.7/23.9/0.035}
+  \fill[grayc!55] (\x,\y) circle (\r);
+
+% ===== 左中：R 徽标框 + 网格盒 =====
+\draw[ink!70, line width=1.0pt, rounded corners=2mm, sketch] (1.7,13.7) rectangle (3.0,15.0);
+\node[text=accent, font=\bfseries\fontsize{17}{20}\selectfont] at (2.35,14.35) {R};
+\draw[grayc!45, line width=0.7pt, sketch] (3.3,13.4) rectangle (6.9,16.4);
+\foreach \x in {3.9,4.5,5.1,5.7,6.3}
+  \draw[grayc!30, line width=0.5pt, sketchfine] (\x,13.4) -- (\x,16.4);
+\foreach \y in {13.9,14.4,14.9,15.4,15.9}
+  \draw[grayc!30, line width=0.5pt, sketchfine] (3.3,\y) -- (6.9,\y);
+
+% ===== 中右：小钟形曲线组（双曲线 + 基线 + 轴） =====
+\draw[ink!75, line width=0.9pt, sketch] (13.5,17.4) -- (16.9,17.4);
+\draw[ink!75, line width=0.9pt, sketch] (13.5,17.4) -- (13.5,19.6);
+\fill[fill=accent!40, draw=accent!80, line width=0.8pt, sketchtiny]
+  (13.7,17.4) .. controls (14.2,17.6) and (14.4,19.2) .. (14.9,19.2)
+  .. controls (15.4,19.2) and (15.5,17.6) .. (16.0,17.4) -- cycle;
+\fill[fill=grayc!22, draw=grayc!60, line width=0.7pt, sketchtiny]
+  (15.0,17.4) .. controls (15.5,17.7) and (15.7,18.6) .. (16.1,18.6)
+  .. controls (16.5,18.6) and (16.6,17.7) .. (16.9,17.4) -- cycle;
+
+% ===== 右上：折线图 =====
+\draw[ink!75, line width=0.9pt, sketch] (17.3,17.9) -- (19.9,17.9);
+\draw[ink!75, line width=0.9pt, sketch] (17.3,17.9) -- (17.3,19.4);
+\draw[ink!85, line width=1.0pt, sketchtiny]
+  (17.45,18.3) -- (17.9,18.8) -- (18.3,18.4) -- (18.8,19.1) -- (19.3,18.6) -- (19.75,19.0);
+\foreach \x/\y in {17.9/18.8, 18.8/19.1, 19.75/19.0}
+  \fill[ink!85] (\x,\y) circle (0.04);
+
+% ===== 中下：柱状图（橙/白交替） =====
+\draw[ink!75, line width=0.9pt, sketch] (11.55,13.3) -- (15.65,13.3);
+\foreach \i/\h in {0/2.3,1/1.3,2/1.8,3/2.4,4/0.9,5/2.1,6/1.5,7/1.9} {
+  \pgfmathparse{mod(\i,2) ? 1 : 0}
+  \ifnum\pgfmathresult>0
+    \fill[fill=white, draw=ink!55, line width=0.7pt, sketchtiny]
+      ({11.7+\i*0.48},13.3) rectangle ++(0.34,\h);
+  \else
+    \fill[fill=accent!70, draw=accent!85, line width=0.6pt, sketchtiny]
+      ({11.7+\i*0.48},13.3) rectangle ++(0.34,\h);
+  \fi
+}
+
+% ===== 右下：星型网络图 =====
+\foreach \a in {0,45,...,315}
+  \draw[ink!65, line width=0.7pt, sketchtiny] (17.9,14.6) -- ({17.9+0.85*cos(\a)},{14.6+0.85*sin(\a)});
+\foreach \a in {0,90,180,270}
+  \fill[fill=accent, draw=accent!85, line width=0.5pt, sketchtiny]
+    ({17.9+0.85*cos(\a)},{14.6+0.85*sin(\a)}) circle (0.11);
+\foreach \a in {45,135,225,315}
+  \fill[fill=white, draw=ink!70, line width=0.7pt, sketchtiny]
+    ({17.9+0.85*cos(\a)},{14.6+0.85*sin(\a)}) circle (0.11);
+\fill[fill=white, draw=ink, line width=1.1pt, sketchtiny] (17.9,14.6) circle (0.2);
+
+% ===== 页面散点（手绘星尘） =====
+\foreach \x/\y/\r in {1.2/22.6/0.03, 19.4/21.8/0.035, 18.7/23.1/0.028,
+  2.1/17.1/0.03, 12.6/16.6/0.03, 8.2/13.6/0.035, 7.4/8.6/0.03,
+  16.4/7.6/0.028, 4.6/7.9/0.032, 19.6/6.6/0.03, 10.8/7.2/0.028,
+  13.8/23.6/0.03, 6.6/23.7/0.03, 3.4/21.7/0.026}
+  \fill[ink!25] (\x,\y) circle (\r);
+\foreach \x/\y/\r in {12.2/21.6/0.032, 7.6/12.2/0.03, 18.2/11.6/0.03}
+  \fill[accent!45] (\x,\y) circle (\r);
+
+% ===== 空白处公式（散落笔记感：浅墨 + 轻微旋转） =====
+% 标题框下左间隙
+\node[rotate=-3, text=ink!55, font=\fontsize{11.5}{14}\selectfont] at (4.4,23.4)
+  {$P(y\mid x)=\dfrac{P(x\mid y)\,P(y)}{P(x)}$};
+\node[rotate=2, text=ink!55, font=\fontsize{10.5}{13}\selectfont] at (4.6,22.1)
+  {$R_{\mathrm{emp}}(f)=\frac{1}{N}\sum_{i=1}^{N}L\big(y_i,f(x_i)\big)$};
+% 标题框下右间隙
+\node[rotate=2.5, text=ink!55, font=\fontsize{11}{14}\selectfont] at (15.7,23.1)
+  {$\hat{y}=\arg\max_{y}\,P(y\mid x)$};
+\node[rotate=-2, text=ink!55, font=\fontsize{10.5}{13}\selectfont] at (16.6,21.9)
+  {$H(P)=-\sum_{i}p_i\log p_i$};
+% 底部留白
+\node[rotate=-2, text=ink!60, font=\fontsize{11.5}{14}\selectfont] at (5.8,7.5)
+  {$p(x\mid\mu,\sigma)=\frac{1}{\sqrt{2\pi}\,\sigma}\exp\!\Big(\!-\frac{(x-\mu)^2}{2\sigma^2}\Big)$};
+\node[rotate=3, text=ink!50, font=\fontsize{11}{14}\selectfont] at (15.6,7.5)
+  {$L(y,z)=\max(0,\;1-yz)$};
+\node[rotate=-1.5, text=ink!50, font=\fontsize{11}{14}\selectfont] at (5.0,5.6)
+  {$w\leftarrow w-\eta\,\nabla L(w)$};
+\node[rotate=-1, text=ink!50, font=\fontsize{11}{14}\selectfont] at (13.9,5.6)
+  {$H(p,q)=-\sum_{i}p_i\log q_i$};
+
+% ===== 底部：作者 + 声明（承接旧封面文字） =====
+\node[text=ink!80, font=\fontsize{13}{16}\selectfont] at (10.5,2.55)
+  {作者：DefTruth};
+\node[text=grayc, font=\fontsize{8.5}{11}\selectfont] at (10.5,1.7)
+  {声明：本笔记仅用于学习交流，未经本人同意，不得用于任何商业传播。};
+\end{tikzpicture}
+\end{document}
