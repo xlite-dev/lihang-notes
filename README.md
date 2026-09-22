@@ -17,7 +17,7 @@
 
 <div align="center">
   <p align="center">
-    <a href="https://github.com/xlite-dev/lihang-notes/releases/download/v1.3.1/lihang-notes.R.pdf">🔥🔥 Download (©️PDF, 200 Pages) <点击下载!> 🎉🎉</a>
+    <a href="https://github.com/xlite-dev/lihang-notes/releases/download/v1.3.2/lihang-notes-R.pdf">🔥🔥 Download (©️PDF, 200 Pages) <点击下载!> 🎉🎉</a>
   </p>
 </div>
 
