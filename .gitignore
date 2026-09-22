@@ -1,3 +1,7 @@
 /R
 /python
 /C++
+.tmp/*
+tmp/*
+.tmp
+tmp

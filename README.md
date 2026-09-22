@@ -3,7 +3,7 @@
     <h2>📚 lihang-notes:《统计学习方法-李航: 笔记-从原理到实现》🎉</h2>
   </p> -->
   <div align='center'>
-    <img src='./book.png'><br>
+    <img src='./cover.png'><br>
     <img src=https://img.shields.io/github/downloads/xlite-dev/lihang-notes/total?color=ccf&label=downloads&logo=github&logoColor=lightgrey >
     <img src=https://img.shields.io/github/forks/xlite-dev/lihang-notes.svg?style=social >
     <img src=https://img.shields.io/github/stars/xlite-dev/lihang-notes.svg?style=social >
